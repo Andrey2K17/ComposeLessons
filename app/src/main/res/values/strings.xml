@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">ComposeLessons</string>
+    <string name="hello_template">Hello %s</string>
+
+
+//Для подстановки правильного окончания, c отображением количества
+    <plurals name="jetpack">
+        <item quantity="one">%1$d Jetpack</item>
+        <item quantity="other">%1$d Jetpacks</item>
+    </plurals>
+//Для подстановки правильного окончания, без отображения количества
+    <plurals name="jetpack_without_count">
+        <item quantity="one">Jetpack</item>
+        <item quantity="other">Jetpacks</item>
+    </plurals>
 </resources>
