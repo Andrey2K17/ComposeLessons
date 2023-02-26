@@ -26,3 +26,10 @@ val Typography = Typography(
     )
     */
 )
+
+val Typography.newStyle: TextStyle
+    get() = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp
+    )
